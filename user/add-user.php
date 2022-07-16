@@ -24,12 +24,15 @@
 
         header('location: ../index.php');
 
-    }else {
-        $_SESSION['name'] = $name;
-        $_SESSION['email'] = $email;
-        $_SESSION['password'] = $password;
+        exit();
 
-        header('location: ./register.php?err=0');
     }
+
+    $_SESSION['name'] = $name;
+    $_SESSION['email'] = $email;
+    $_SESSION['password'] = $password;
+
+    header('location: ./register.php?err=0');
+    
 
 
