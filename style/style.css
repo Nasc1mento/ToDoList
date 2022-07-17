@@ -3,7 +3,7 @@ body{
     background-color: rgba(131, 16, 238, 0.56);
 }
 
-.login{
+.login, .register{
     background-color: rgba(10, 10, 10, 1);
     position: absolute;
     top: 50%;
@@ -14,20 +14,21 @@ body{
     color: white;
 }
 
-h1{
+.login h2, .register h2{
     text-align: center;
 }
 
-input{
+.login input, .register input{
     margin: 5px;
     padding: 15px;
     border: none;
     outline: none;
     font-size: 15px;
     border-radius: 10px;
+    display: flex;
 }
 
-button{
+.login button, .register button{
     background-color: rgba(37, 110, 203, 1);
     padding: 15px;
     margin: 5px;
@@ -39,10 +40,10 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.login button:hover, .register button:hover{
     background-color: rgb(68, 64, 172);
 }
 
-button:focus{
+.login button:focus, .register button:focus{
     background-color: rgb(189, 88, 88);
 }

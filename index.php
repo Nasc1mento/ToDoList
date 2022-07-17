@@ -10,18 +10,12 @@
 </head>
 <body>
 <div class="login">
-    <h1>Login</h1>
+    <h2>Login</h2>
     <form action="./user/login.php" method="POST">
-        <div>
             <input type="email" name="email" placeholder="Email">
-        </div>
-
-        <div>
             <input type="password" name="password" placeholder="Password">
-        </div>
-        <div>
             <button type="submit">Login</button>
-        </div>
+
     </form>
     <p>Not registered?&nbsp;<a href="./user/register.php">Create an account</a></p>
     <div>
