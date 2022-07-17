@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(131, 16, 238, 0.56);
+    background-color: rgba(240, 217, 13, 0.857);
 }
 
 .login, .register{
@@ -33,7 +33,7 @@ body{
     padding: 15px;
     margin: 5px;
     border: none;
-    width: 100%;
+    width: 95%;
     border-radius: 10px;
     color:white;
     font-size: 15px;
@@ -45,5 +45,70 @@ body{
 }
 
 .login button:focus, .register button:focus{
-    background-color: rgb(189, 88, 88);
+    background-color: rgb(53, 175, 44);
+}
+
+.add-task, .edit-task{
+    background-color: rgba(10, 10, 10, 1);
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.add-task fieldset, .edit-task fieldset{
+    border-radius: 15px;
+}
+
+.add-task input, .edit-task input{
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.add-task button, .edit-task button{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+table,tr,td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1em;
+    margin-left: 60%;
+    margin-top: 4.4%;
+    background-color: rgba(247, 239, 239, 0.704);
+}
+
+img{
+    border: none;
+    width: 40px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.logout-button{
+    display: block;
+}
+
+a:link{
+    color: rgba(240, 217, 13, 0.857);
+}
+
+a:visited{
+    color: rgba(240, 217, 13, 0.857);
 }
