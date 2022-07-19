@@ -11,6 +11,12 @@
 ### Atividades
 - Criar, editar/ atualizar e deletar
 - Cada usuário vê a sua própria task
+- - - 
+### O que foi usado
+- PHP
+- HTML
+- CSS
+
 
 
 
