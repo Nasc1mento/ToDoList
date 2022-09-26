@@ -1,5 +1,5 @@
 # ToDoList
-## Projeto criado com o objetivo de fixar os conhecimentos acerca de um CRUD e pôr em prática um pouco de CSS
+## Projeto pessoal criado com o objetivo de fixar os conhecimentos acerca de um CRUD e pôr em prática um pouco de CSS
 - - -
 ## Funcionalidades
 
